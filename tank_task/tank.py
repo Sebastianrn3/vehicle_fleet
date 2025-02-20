@@ -54,7 +54,7 @@ game = Battlefield()
 while True:
     value = input("There you go:")
     game.tank.direction = value
-    game = Battlefield()
+    game.generate_field()
 
 
 # {self.tank.direction}
